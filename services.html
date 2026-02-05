@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Breeze Staffing Solutions Services">
+    <title>Services - Breeze Staffing Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo-container">
+                <img src="images/breeze-logo.png" alt="Breeze Logo" class="header-logo">
+                <div class="brand-text">
+                    <div class="logo">BREEZE</div>
+                    <div class="tagline">Staffing Solutions</div>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">HOME</a></li>
+                <li><a href="about.html" class="nav-link">ABOUT</a></li>
+                <li><a href="services.html" class="nav-link active">SERVICES</a></li>
+                
+                <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero" style="background-image: url('images/event-management.jpg');">
+            <div class="page-hero-overlay"></div>
+            <div class="page-hero-content">
+                <h1 class="page-hero-title slide-in-right">Our Services</h1>
+                <p class="page-hero-subtitle slide-in-right">Comprehensive solutions for unforgettable brand experiences</p>
+            </div>
+        </section>
+
+
+        <!-- Event Gallery Carousel -->
+        <section class="event-gallery-section">
+            <div class="event-gallery-container">
+                <h2 class="section-title-modern slide-in-right">Our Events Portfolio</h2>
+                <p class="section-subtitle-modern slide-in-right">Capturing moments from our successful brand experiences</p>
+                
+                <div class="event-carousel-wrapper">
+                    <button class="event-arrow event-arrow-left" onclick="moveEventSlide(-1)">‹</button>
+                    
+                    <div class="event-carousel-viewport">
+                        <div class="event-carousel-slides" id="eventSlides">
+                            <div class="event-slide">
+                                <img src="images/event1.png" alt="Event 1">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event2.png" alt="Event 2">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event3.png" alt="Event 3">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event4.png" alt="Event 4">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event5.png" alt="Event 5">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event6.png" alt="Event 6">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event7.png" alt="Event 7">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event8.png" alt="Event 8">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event9.png" alt="Event 9">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event10.png" alt="Event 10">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event11.png" alt="Event 11">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event12.png" alt="Event 12">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event13.png" alt="Event 13">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event14.png" alt="Event 14">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event15.png" alt="Event 15">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event16.png" alt="Event 16">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event17.png" alt="Event 17">
+                            </div>
+                            <div class="event-slide">
+                                <img src="images/event18.png" alt="Event 18">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="event-arrow event-arrow-right" onclick="moveEventSlide(1)">›</button>
+                </div>
+                
+                <div class="event-carousel-dots" id="eventDots"></div>
+            </div>
+        </section>
+
+
+        <!-- Stats Section 
+        <section class="stats-modern services-stats">
+            <div class="stats-grid-modern">
+                <div class="stat-item-modern zoom-in-stat">
+                    <div class="stat-number-large" data-target="500">0</div>
+                    <div class="stat-plus-modern">+</div>
+                    <div class="stat-label-modern">Events Delivered</div>
+                </div>
+                <div class="stat-item-modern zoom-in-stat">
+                    <div class="stat-number-large" data-target="95">0</div>
+                    <div class="stat-percent-modern">%</div>
+                    <div class="stat-label-modern">Client Satisfaction</div>
+                </div>
+                <div class="stat-item-modern zoom-in-stat">
+                    <div class="stat-number-large" data-target="150">0</div>
+                    <div class="stat-plus-modern">+</div>
+                    <div class="stat-label-modern">Professional Staff</div>
+                </div>
+                <div class="stat-item-modern zoom-in-stat">
+                    <div class="stat-number-large" data-target="50">0</div>
+                    <div class="stat-plus-modern">+</div>
+                    <div class="stat-label-modern">Brand Partners</div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Services Detail Split -->
+        <section class="services-split">
+            <div class="service-row">
+                <div class="service-image-half">
+                    <img src="images/staffing1.png" alt="Event Staffing" class="service-image-direct">
+                </div>
+                <div class="service-content-half dark-bg">
+                    <div class="service-content-inner slide-in-right">
+                        <span class="service-number-modern">01</span>
+                        <h2 class="service-title-modern">Event Staffing</h2>
+                        <p class="service-description-modern">Our professional event staff are the face of your brand. Meticulously selected and trained, they ensure every interaction reflects your brand's values and creates lasting impressions.</p>
+                        <ul class="service-list-modern">
+                            <li>Product Demonstrators</li>
+                            <li>Brand Ambassadors</li>
+                            <li>Hospitality Staff</li>
+                            <li>Event Coordinators</li>
+                            <li>VIP Guest Relations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-row reverse">
+                <div class="service-content-half dark-bg">
+                    <div class="service-content-inner slide-in-left">
+                        <span class="service-number-modern">02</span>
+                        <h2 class="service-title-modern">Event Management</h2>
+                        <p class="service-description-modern">From intimate corporate gatherings to large-scale activations, we orchestrate every detail with precision. Our end-to-end event management ensures seamless execution from concept to completion.</p>
+                        <ul class="service-list-modern">
+                            <li>Corporate Events</li>
+                            <li>Product Launches</li>
+                            <li>Brand Activations</li>
+                            <li>Conferences & Exhibitions</li>
+                            <li>Promotional Campaigns</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-image-half">
+                    <img src="images/staffing2.png" alt="Event Management" class="service-image-direct">
+                </div>
+            </div>
+
+            <div class="service-row">
+                <div class="service-image-half">
+                    <img src="images/staffing4.png" alt="Marketing Services" class="service-image-direct">
+                </div>
+                <div class="service-content-half dark-bg">
+                    <div class="service-content-inner slide-in-right">
+                        <span class="service-number-modern">03</span>
+                        <h2 class="service-title-modern">Marketing Services</h2>
+                        <p class="service-description-modern">Strategic marketing solutions that amplify your brand's reach and impact. We combine data-driven insights with creative excellence to deliver campaigns that resonate and convert.</p>
+                        <ul class="service-list-modern">
+                            <li>Marketing Strategy & Research</li>
+                            <li>Digital Marketing</li>
+                            <li>Social Media Management</li>
+                            <li>Content Creation</li>
+                            <li>Brand Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Team Showcase -->
+        <section class="team-showcase">
+            <div class="team-container">
+                <h2 class="section-title-modern slide-in-right">Our Professional Team</h2>
+                <p class="section-subtitle-modern slide-in-right">Meet the faces that bring your brand to life</p>
+                
+                <div class="team-gallery-three">
+                    <div class="team-card-rounded slide-in-up">
+                        <img src="images/staffing3.png" alt="Professional Team Member">
+                    </div>
+                    <div class="team-card-rounded slide-in-up">
+                        <img src="images/staff-team.jpeg" alt="Professional Team Member">
+                    </div>
+                    <div class="team-card-rounded slide-in-up">
+                        <img src="images/staffing5.png" alt="Professional Team Member">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Section -->
+        <section class="why-choose-services">
+            <div class="why-container">
+                <h2 class="section-title-modern slide-in-right">The Breeze Difference</h2>
+                <div class="story-cards-grid">
+                    <div class="story-card slide-in-up">
+                        <div class="story-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
+                        <h3 class="story-card-title">Experienced Excellence</h3>
+                        <p class="story-card-text">8 years of industry leadership delivering exceptional results across diverse sectors and events.</p>
+                    </div>
+                    <div class="story-card slide-in-up">
+                        <div class="story-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <h3 class="story-card-title">Professional Standards</h3>
+                        <p class="story-card-text">Rigorous training and quality control ensure every team member exceeds expectations and represents your brand excellently.</p>
+                    </div>
+                    <div class="story-card slide-in-up">
+                        <div class="story-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="story-card-title">Reliable Delivery</h3>
+                        <p class="story-card-text">Consistent, dependable service that you can count on for every event, every time, without exception.</p>
+                    </div>
+                    <div class="story-card slide-in-up">
+                        <div class="story-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <h3 class="story-card-title">Youth Empowerment</h3>
+                        <p class="story-card-text">Creating meaningful employment opportunities while building South Africa's future workforce and driving economic growth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-modern">
+            <div class="cta-content-modern slide-in-up">
+                <h2>Let's Create Something Amazing</h2>
+                <p>Partner with Breeze for your next event</p>
+                <a href="contact.html" class="cta-btn-white">Start a Conversation</a>
+            </div>
+        </section>
+    </main>
+
+       <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3 class="footer-logo">BREEZE</h3>
+                <p class="footer-tagline">Staffing Solutions</p>
+                <p class="footer-desc">Professional event staffing and marketing excellence since 2016.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <ul class="footer-contact">
+                    <li>📧 thulamnyameni@gmail.com</li>
+                    <li>📞 +27 (78) 110 3157</li>
+                    <li>📍 Randburg, South Africa</li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://instagram.com/breeze_staffing_solutions" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Breeze Staffing Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
