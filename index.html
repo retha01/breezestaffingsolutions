@@ -22,7 +22,6 @@
                 <li><a href="index.html" class="nav-link active">HOME</a></li>
                 <li><a href="about.html" class="nav-link">ABOUT</a></li>
                 <li><a href="services.html" class="nav-link">SERVICES</a></li>
-                
                 <li><a href="contact.html" class="nav-link">CONTACT</a></li>
             </ul>
             <div class="menu-toggle">
@@ -46,11 +45,12 @@
         </section>
 
         <!-- Stats Section -->
+        <!-- FIX 2: Added missing closing </div> tags for stats-grid-icons and stats-container-modern -->
         <section class="stats-modern-dark">
             <div class="stats-container-modern">
                 <h2 class="stats-title">Why Choose Breeze?</h2>
                 <div class="stats-grid-icons">
-                 <div class="stat-item-icon zoom-in-stat">
+                    <div class="stat-item-icon zoom-in-stat">
                         <div class="stat-icon-circle">
                             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
@@ -84,7 +84,8 @@
                         <div class="stat-plus-modern">+</div>
                         <div class="stat-label-modern">Part-Time Staff</div>
                     </div>
-            </div>
+                </div><!-- end stats-grid-icons -->
+            </div><!-- end stats-container-modern -->
         </section>
 
         <!-- Services Section -->
@@ -137,9 +138,9 @@
             <div class="brands-container">
                 <h2 class="section-title-modern slide-in-right">Trusted By Leading Brands</h2>
                 <p class="section-subtitle-modern slide-in-right">Building lasting partnerships through exceptional service delivery</p>
-                
+
                 <div class="brands-carousel-wrapper">
-                    <button class="brand-arrow prev-brand" aria-label="Previous">‹</button>
+                    <button class="brand-arrow prev-brand" aria-label="Previous">&#8249;</button>
                     <div class="brands-carousel-viewport">
                         <div class="brands-carousel-slides">
                             <div class="brand-card-carousel">
@@ -165,7 +166,7 @@
                             </div>
                         </div>
                     </div>
-                    <button class="brand-arrow next-brand" aria-label="Next">›</button>
+                    <button class="brand-arrow next-brand" aria-label="Next">&#8250;</button>
                 </div>
             </div>
         </section>
@@ -175,7 +176,7 @@
             <div class="testimonials-container">
                 <h2 class="section-title-modern slide-in-right">What Our Clients Say</h2>
                 <div class="testimonials-carousel">
-                    <button class="testimonial-arrow prev-testimonial" aria-label="Previous">‹</button>
+                    <button class="testimonial-arrow prev-testimonial" aria-label="Previous">&#8249;</button>
                     <div class="testimonials-viewport">
                         <div class="testimonials-slides">
                             <div class="testimonial-card">
@@ -192,17 +193,13 @@
                             </div>
                             <div class="testimonial-card">
                                 <div class="stars">★★★★★</div>
-                                <p class="testimonial-text">"I have been working with Breeze for over three years and I am consistently impressed with their professionalism and reliability and the quality of staff they provide. 
-
-                                   Their team understands our needs, delivers on time and makes the staffing process seamless. 
-
-                                 As a senior in my field I am always confident in their services and highly recommend them to anyone looking for a dependable staffing partner"</p>
+                                <p class="testimonial-text">"I have been working with Breeze for over three years and I am consistently impressed with their professionalism, reliability and the quality of staff they provide."</p>
                                 <h4 class="testimonial-author">Bliss</h4>
                                 <p class="testimonial-role">Messe Frankfurt SA</p>
                             </div>
                         </div>
                     </div>
-                    <button class="testimonial-arrow next-testimonial" aria-label="Next">›</button>
+                    <button class="testimonial-arrow next-testimonial" aria-label="Next">&#8250;</button>
                 </div>
             </div>
         </section>
@@ -238,7 +235,7 @@
                             </svg>
                         </div>
                         <h3 class="story-card-title">Professional Team</h3>
-                        <p class="story-card-text">Highly trained staff committed to representing your brand with distinction and professionalism.</p>
+                        <p class="story-card-text">Highly trained staff committed to representing your brand with distinction and professionalism at every event.</p>
                     </div>
                     <div class="story-card slide-in-up">
                         <div class="story-card-icon">
@@ -263,7 +260,8 @@
             </div>
         </section>
     </main>
-   <!-- Footer -->
+
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-section">
@@ -271,7 +269,6 @@
                 <p class="footer-tagline">Staffing Solutions</p>
                 <p class="footer-desc">Professional event staffing and marketing excellence since 2016.</p>
             </div>
-            
             <div class="footer-section">
                 <h4>Quick Links</h4>
                 <ul class="footer-links">
@@ -281,7 +278,6 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-            
             <div class="footer-section">
                 <h4>Contact</h4>
                 <ul class="footer-contact">
@@ -290,7 +286,6 @@
                     <li>📍 Randburg, South Africa</li>
                 </ul>
             </div>
-            
             <div class="footer-section">
                 <h4>Follow Us</h4>
                 <div class="social-links">
@@ -298,11 +293,11 @@
                 </div>
             </div>
         </div>
-        
         <div class="footer-bottom">
             <p>&copy; 2026 Breeze Staffing Solutions. All rights reserved.</p>
         </div>
     </footer>
+
     <script src="main.js"></script>
 </body>
 </html>
